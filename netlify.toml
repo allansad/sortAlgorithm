@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"   # 빌드 명령어
+  publish = "out"             # 빌드 결과물 디렉토리
+
+[[redirects]]
+  from = "/*"                 # 모든 경로를
+  to = "/index.html"          # index.html로 리다이렉트
+  status = 200
